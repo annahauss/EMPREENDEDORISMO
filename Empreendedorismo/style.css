@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: optima, sans-serif;
+}
+
+body {
+    background-color: #FFE76C;
+}
+.cabeçalho {
+    background-color: #F00C9D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.cabeçalho-imagem {
+    width: 90px;
+    transition: 0.5s;
+}
+
+.cabeçalho-imagem:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.cabeçalho-lista-item {
+    color: white;
+    display: inline-block;
+    margin: 0 16px;
+    padding: 20px 0;
+    transition: 0.5s;
+}
+
+.cabeçalho-lista-item:hover {
+    color:#FFE76C;
+    transition: 0.5s;
+}
+
+.container1 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 24px;
+    padding: 8%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url('https://wallpapercave.com/wp/wp11837116.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+h1 {
+    color:#FFE76C;              ;
+    text-shadow: 3px 3px 3px #00000090;
+}
+
+
+p {
+    color: white;
+    text-shadow: 3px 3px 3px #00000090;
+}
+
+.studio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(#FFE76C, #F00C9D);
+    padding: 5%;
+
+}
+
+.imagem-camera {
+    width: 600px;
+}
