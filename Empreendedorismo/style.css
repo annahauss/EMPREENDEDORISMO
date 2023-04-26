@@ -44,7 +44,7 @@ body {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-left: 15%;
     margin-right: 15%;
     font-size: 24px;
@@ -72,10 +72,15 @@ p {
 .studio {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-image: linear-gradient(#FFE76C, #F00C9D);
     padding: 5%;
+}
 
+.studio-texto {
+ width: 35%;
+ font-size: 34px;
 }
 
 .imagem-camera {
